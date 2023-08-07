@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "winston": "^3.10.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }

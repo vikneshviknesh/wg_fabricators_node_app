@@ -2,4 +2,3 @@
 .netlify
 # dependencies
 /node_modules
-/logs

@@ -1,0 +1,11 @@
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+{"level":"error","message":"Unknown database 'inventory'"}
+{"level":"error","message":"Table 'inventory.users' doesn't exist"}
+{"level":"error","message":"Table 'inventory.users' doesn't exist"}
+{"level":"error","message":"Table 'inventory.users' doesn't exist"}
+{"level":"error","message":"Unknown database 'inventory'"}
+{"level":"error","message":"Unknown database 'inventory'"}
+{"level":"error","message":"Column 'role' cannot be null"}
