@@ -89,3 +89,150 @@
 {"level":"info","message":"Database connected"}
 {"level":"info","message":"Running on PORT 3001"}
 {"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASEC' at line 1"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASEC' at line 1"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASEC' at line 1"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = '1'' at line 1"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = '2'' at line 1"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = '3'' at line 1"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 3' at line 1"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = \"3\"' at line 1"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"Truncated incorrect DOUBLE value: 'Sale'"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}

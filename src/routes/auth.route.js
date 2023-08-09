@@ -11,4 +11,16 @@ router.route('/signup')
 router.route('/signin')
     .post(signinValidator, asyncHandler(authController.signin));
 
+router.route('/list')
+    .get(asyncHandler(authController.listUser));
+
+router.route('/deleteUser/:id')
+    .delete(asyncHandler(authController.deleteUser));
+
+router.route('/user/:id')
+    .get(asyncHandler(authController.getUserById));
+
+router.route('/updateuser')
+    .put(asyncHandler(authController.updateUserById));
+
 module.exports = router;

@@ -1,6 +1,32 @@
 const Joi = require('joi');
 const validatorHandler = require('../middlewares/validatorHandler');
 
+const editUser = (req, res, next) => {
+    const schema = Joi.object().keys({
+        firstname: Joi.string()
+            .trim()
+            .alphanum()
+            .min(3)
+            .max(50)
+            .required(),
+        lastname: Joi.string()
+            .trim()
+            .alphanum()
+            .min(3)
+            .max(50)
+            .required(),
+        email: Joi.string()
+            .trim()
+            .email()
+            .required(),
+        role: Joi.string()
+            .trim()
+            .valid('Admin','Non-Admin', 'HR', 'Sale', 'Manager')
+            .required(),
+    });
+    validatorHandler(req, res, next, schema);
+};
+
 const signup = (req, res, next) => {
     const schema = Joi.object().keys({
         firstname: Joi.string()
@@ -25,7 +51,7 @@ const signup = (req, res, next) => {
             .required(),
         role: Joi.string()
             .trim()
-            .valid('Admin','Non-Admin')
+            .valid('Admin','Non-Admin', 'HR', 'Sale', 'Manager')
             .required(),
     });
     validatorHandler(req, res, next, schema);
@@ -47,5 +73,6 @@ const signin = (req, res, next) => {
 
 module.exports = {
     signup,
-    signin
+    signin,
+    editUser
 };

@@ -2,6 +2,78 @@ const User = require('../models/user.model');
 const { hash: hashPassword, compare: comparePassword } = require('../utils/password');
 const { generate: generateToken } = require('../utils/token');
 
+exports.updateUserById = (req, res) => {
+
+    User.updateUserById(req.body, (err, id) => {
+        if (err) {
+            res.status(err?.statusCode || 500).send({
+                status: "error",
+                message: err.message
+            });
+        } else {
+            res.status(201).send({
+                status: "success",
+                data: {
+                    message: 'User with id ' + id + ' updated'
+                }
+            });
+        }
+    });
+};
+
+exports.getUserById = (req, res) => {
+
+    User.getUserById(req.params.id, (err, data) => {
+        if (err) {
+            res.status(err?.statusCode || 500).send({
+                status: "error",
+                message: err.message
+            });
+        } else {
+            res.status(201).send({
+                status: "success",
+                data
+            });
+        }
+    });
+};
+
+exports.deleteUser = (req, res) => {
+
+    User.deleteUserById(req.params.id, (err, id) => {
+        if (err) {
+            res.status(err?.statusCode || 500).send({
+                status: "error",
+                message: err.message
+            });
+        } else {
+            res.status(201).send({
+                status: "success",
+                data: {
+                    message: 'User with id ' + id + ' deleted'
+                }
+            });
+        }
+    });
+};
+
+exports.listUser = (req, res) => {
+
+    User.getAllUsers((err, data) => {
+        if (err) {
+            res.status(500).send({
+                status: "error",
+                message: err.message
+            });
+        } else {
+            res.status(201).send({
+                status: "success",
+                data
+            });
+        }
+    });
+};
+
 exports.signup = (req, res) => {
     const { firstname, lastname, email, password, role } = req.body;
     const hashedPassword = hashPassword(password.trim());

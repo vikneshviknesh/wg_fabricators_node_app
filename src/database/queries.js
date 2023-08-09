@@ -45,6 +45,22 @@ CREATE TABLE IF NOT EXISTS role (
 )
 `;
 
+const getAllUsers = `
+SELECT id, firstname, lastname, email, role, created_on FROM users ORDER BY id ASC
+`;
+
+const deleteUserById = `
+DELETE FROM users WHERE id = ?
+`;
+
+const getUserById = `
+SELECT id, firstname, lastname, email, role FROM users WHERE id = ?
+`;
+
+const updateUserById = `
+UPDATE users SET firstname = ?, lastname = ?, email = ?, role = ? WHERE id = ?
+`;
+
 module.exports = {
     createDB,
     dropDB,
@@ -52,5 +68,9 @@ module.exports = {
     createNewUser,
     findUserByEmail,
     createNewPermission,
-    createNewRole
+    createNewRole,
+    getAllUsers,
+    deleteUserById,
+    getUserById,
+    updateUserById
 };
