@@ -236,3 +236,19 @@
 {"level":"info","message":"Database connected"}
 {"level":"info","message":"Running on PORT 3001"}
 {"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}
+{"level":"error","message":"read ETIMEDOUT"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}
+{"level":"info","message":"Running on PORT 3001"}
+{"level":"info","message":"Database connected"}

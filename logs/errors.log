@@ -22,3 +22,7 @@
 {"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 3' at line 1"}
 {"level":"error","message":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = \"3\"' at line 1"}
 {"level":"error","message":"Truncated incorrect DOUBLE value: 'Sale'"}
+{"level":"error","message":"read ETIMEDOUT"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}
+{"level":"error","message":"Can't add new command when connection is in closed state"}

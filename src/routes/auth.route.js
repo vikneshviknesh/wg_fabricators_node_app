@@ -9,7 +9,7 @@ router.route('/signup')
     .post(signupValidator, asyncHandler(checkEmail), asyncHandler(authController.signup));
 
 router.route('/signin')
-    .post(signinValidator, asyncHandler(authController.signin));
+    .post(asyncHandler(authController.signin));
 
 router.route('/list')
     .get(asyncHandler(authController.listUser));
